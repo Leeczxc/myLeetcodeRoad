@@ -7,3 +7,4 @@ The day to do leetcode
 | 789 | difficult |
 | 804 |   easy    |
 | 357 |  medium   |
+| 806 |   easy    |
