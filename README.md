@@ -10,3 +10,4 @@ The day to do leetcode
 | 806 |   easy   |
 | 380 |  medium  |
 | 1672| easy    |
+|479|difficult|
