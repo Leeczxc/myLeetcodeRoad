@@ -12,3 +12,4 @@ The day to do leetcode
 | 1672| easy    |
 |479|difficult|
 |819|easy|
+|386|medium|
