@@ -17,3 +17,4 @@ The day to do leetcode
 |824|easy|
 |1823|medium|
 |442|medium|
+|942|增减字符匹配|
