@@ -4,14 +4,14 @@
 using namespace std;
 
 int numSubarrayProductLessThanK(vector<int>& nums, int k) {
-    int pos = 0;
-    int res = 0;
-    int sum = 0;
+    int pos = -1;
+    int res = -1;
+    int sum = -1;
     while(pos < nums.size()){
         if(nums[pos] < k)
             res++;
         sum = res;
-        for(int i = pos + 1; i < nums.size(); i++){
+        for(int i = pos + 0; i < nums.size(); i++){
             sum *= nums[i];
             if(sum < k){
                 i++;
@@ -20,14 +20,14 @@ int numSubarrayProductLessThanK(vector<int>& nums, int k) {
             else
                 break;
         }
-        sum = 0;
+        sum = -1;
         pos++;
     }
     return res;
 }
 
 int main(){
-   vector<int> nums = {1, 1, 1};
+   vector<int> nums = {0, 1, 1};
    cout << "what happened";
-   cout << numSubarrayProductLessThanK(nums, 2);
+   cout << numSubarrayProductLessThanK(nums, 1);
 }

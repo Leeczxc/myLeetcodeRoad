@@ -41,4 +41,3 @@ int main(){
     c = 'b';
     for(auto c : shortestToChar(s,c))
         cout << c << " ";
-}
