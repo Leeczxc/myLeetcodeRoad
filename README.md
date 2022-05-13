@@ -19,3 +19,4 @@ The day to do leetcode
 |442|medium|
 |942|medium|
 |944|easy|
+|面试题05.02|medium|
