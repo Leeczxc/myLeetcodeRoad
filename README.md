@@ -22,3 +22,6 @@ The day to do leetcode
 |面试题05.02|medium|
 |2351|easy|
 |1901|medium|
+|2042|easy|
+|2185|easy|
+|1813|medium|
