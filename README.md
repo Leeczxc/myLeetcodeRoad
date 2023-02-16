@@ -30,3 +30,5 @@ The day to do leetcode
 |1797|medium|
 |1223|difficult|
 |1234|medium|
+|1124|medium|
+|2341|easy|
