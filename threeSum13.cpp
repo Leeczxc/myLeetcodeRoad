@@ -30,7 +30,7 @@ vector<vector<int>> threeSum(vector<int> &nums)
                 break;
             }
             if(nums[second] + nums[third] == target){
-                ans.push_back(nums[first], nums[second], nums[third]);
+                ans.push_back({nums[first], nums[second], nums[third]});
             }
         }
     }
