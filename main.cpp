@@ -1,7 +1,6 @@
-#include "decodeString394.cpp"
+#include "search704.h" 
 
 int main()
 {
-    string s = "100[leetcode]";
-    cout << decodeString(s);
+    
 }
